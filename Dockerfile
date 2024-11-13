@@ -2,7 +2,7 @@
 ARG tag=latest
 FROM lardbit/nefarious:frontend-$tag as frontend
 
-FROM python:3.9.9-bullseye
+FROM python:3.14.0a1-bullseye
 
 EXPOSE 80
 
